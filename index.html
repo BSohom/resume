@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio- Sohom_Banerjee</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/51661a2ed5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo2.JPEG" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact </a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Programmer</p>
+          <h1>Hi, I'm <span>Sohom</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-------------about------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/rb.jpg" height="100%" width="300" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title"> About me </h1>
+            <p>Enthusiastic, self-motivated, reliable, responsible. Looking for 
+              an opportunity to explore my knowledge and potentials, which helps 
+              in advancement of my career.</p>
+
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onmouseover="opentab('Skills')">Skills</p>
+                <p class="tab-links" onmouseover="opentab('Experience')" >Experience</p>
+                <p class="tab-links" onmouseover="opentab('Education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="Skills"> 
+                <ul>
+                  <li><span>Programming language</span><br>Python,Java</li>
+                  <li><span>Web development</span><br>Html,Css</li>
+                  <li><span>Database</span><br>Sql</li>
+
+                </ul>
+              </div>
+              <div class="tab-contents" id="Experience"> 
+                <ul>
+                  <li><span>Project work in college</span></li>
+                  <li><span>Machine learning</span><br>Neural machine translation</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Education"> 
+                <ul>
+                  <li><span>Secondary Education(2008-18)</span><br>89%</li>
+                  <li><span>Higher Secondary(2018-20)</span><br>83.6%</li>
+                  <li><span>B.Sc. Computer Science-Hons(2020-23)</span><br>CGPA-7.97</li>
+                  <li><span>Masters of Computer Application (2023-25)</span><br>1st semester SGPA- 8.12</li>
+
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------services-------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title"> My Services </h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-link"></i>            <h2>Web Design</h2>
+            <p>I am learning web design by making this portfolio.</p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Programming</h2>
+            <p>I have programming experience in python,c,java etc.</p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Database</h2>
+            <p>I have experience in oracle,Mysql.</p>
+            <a href="">Learn more</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!----------portfolio-------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title"> My Work </h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work1.jpg" height="130%" width="40%">
+        <div class="layer">
+          <h3>Presentation</h3>
+          <p>I have lot of experience about giving 
+            presentation due to many academical and official works.
+            Doing presentation,is a part of my journey. 
+            
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work2.jpg" height="130%" width="40%">
+        <div class="layer">
+          <h3>Programming</h3>
+          <p>Doing lot of coding,find the bugs and after debugging,the 
+            successful execution keeps me motivated everytime.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work3.jpg" height="130%" width="40%">
+        <div class="layer">
+          <h3>Socialization</h3>
+          <p>Socialization encompasses both learning and teaching and is 
+            thus "the means by which social and cultural continuity are attained".
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-----------------contact------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>sohombanerjee99034@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i> 6291576328</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/sohom.banerjee.35110/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/b_sohom29/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/sohom-banerjee-07b571247/"><i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+        <a href="images/Sohom_Banerjee.pdf" download class="btn btn2">Download CV</a>
+      </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2" >Submit</button>
+
+          </form>
+          <span id="msg"></span>
+        </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Made with <i class="fa-solid fa-heart"></i> by Sohom Banerjee </p>
+  </div>
+  
+</div>
+
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu= document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-120px";
+      }
+
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw_ttEsf4ds1lxTSc76j7J_ZrOfNxUMuhs8hNjT6U9t5hwqzNtKLXwuBb3T9k1ZpZYBsQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg= document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },3000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
